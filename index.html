@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Bridge2meal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen flex">
+    <!-- Left Side: Image -->
+    <div
+      class="hidden md:flex w-1/2 bg-cover bg-center m-8  p-10 rounded-lg"
+      style="background-image: url('img/banner1.jpg')"
+    ></div>
+
+    <!-- Right Side: Login Options -->
+    <div
+      class="w-full md:w-1/2 flex flex-col items-center justify-center bg-white text-gray-800 px-8"
+    >
+      <div class="text-center">
+      
+        <img
+          src="img/Logo4.png"
+          alt="Bridge2Meals Logo"
+          class="h-22 mb-4"
+        />
+        <h1 class="text-3xl font-semibold">Login as</h1>
+      </div>
+
+      <div class="mt-6 flex flex-col space-y-4 w-full max-w-sm">
+        <a
+          href="signup.php"
+          class="flex items-center px-6 py-3 text-white bg-orange-500 rounded-lg shadow-md hover:bg-orange-600 transition"
+        >
+          <img src="img/user.png" alt="User Icon" class="h-6 w-6 mr-2" /> User
+        </a>
+        <a
+          href="admin/signup.php"
+          class="flex items-center px-6 py-3 text-white bg-orange-500 rounded-lg shadow-md hover:bg-orange-600 transition"
+        >
+          <img src="img/admin.png" alt="Admin Icon" class="h-6 w-6 mr-2" />
+          Admin
+        </a>
+        <a
+          href="delivery/deliverysignup.php"
+          class="flex items-center px-6 py-3 text-white bg-orange-500 rounded-lg shadow-md hover:bg-orange-600 transition"
+        >
+          <img
+            src="img/delivery.png"
+            alt="Delivery Icon"
+            class="h-6 w-6 mr-2"
+          />
+          Delivery
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
