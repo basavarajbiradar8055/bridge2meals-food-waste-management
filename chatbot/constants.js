@@ -59,8 +59,8 @@ const prompts = [
     ["I am infinite"],
     ["I am just a bot", "I am a bot. What are you?"],
     
-    ["kishor and uppili"],
-    ["I am chitti"],
+    ["Basavaraj, student of MCA at New Horizon College of Engineering"],
+    ["I am Bridge2Bot, your food donation assistant!"],
     ["I love you too", "Me too"],
     ["Have you ever felt bad?", "Glad to hear it"],
     ["Why?", "Why? You shouldn't!", "Try watching TV"],
